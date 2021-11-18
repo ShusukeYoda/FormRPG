@@ -1,0 +1,129 @@
+Foamの二画面目にイラストを描画して、
+ボタンクリックで進めることができる
+選択式のゲームを作りました。
+
+asyncキーワードはC#コンパイラーに対してメソッドが非同期であることを示す。つまり、任意の数のawait式を使用でき、結果をpromiseにバインドする。
+
+else if　１秒タイマー　削除　   
+         
+//this.Load += new EventHandler(Form1_Load);
+  onだとコマンド増殖
+
+戦闘ＢＧＭ・進行ＢＧＭ・END・GOAL・ＳＥ
+
+魔法を使った後のバトルテキストクリア
+斬りかかる と 魔法を使う の条件を修正
+
+  bool judge = false;  タロット選択
+  bool battle = false;　戦闘中か否か
+  bool walk = false;　　進行フラグ
+
+	//コンボボックスの値を受け渡す
+            {
+                string command = commandBox.Text;
+                int number = this.comandSelect[command];
+
+                Command(number);
+            }
+
+ラベル順
+hp 9  st  10  vi  11   lu  12 
+mg 13 re  14  ag  15   de  16
+
+ストーリーカードrandomをコメントアウト中
+
+int attack = select[v].str + (select[v].dex / 5) * (select[v].luc / 5);
+int defense = select[v].vit + (select[v].dex / 5) * (select[v].luc / 5);
+int mAttack = select[v].mg + (select[v].dex / 5) * (select[v].luc / 5);
+int mDefense = select[v].res + (select[v].dex / 5) * (select[v].luc / 5);
+
+//バトルメソッドへ
+SwBattlePre(attack, damage,eDamage,enemys[enemyNom].eAgi,enemys[enemyNom].eHp);
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+Foam１でカード選択start　
+↓	
+stop			 		
+↓				↓
+ストーリーカード進行     	ステータス開示
+↓
+Foam１テキストボックス更新		
+↓					
+コンボボックス選択
+↓				↓
+テキストボックス更新　		選択によっては戦闘
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+　　　　　　　　　５
+２，３８，４，５，６，７，８，９，１０，１１，
+12,　13,　14,　15,16,　17,18,　19　20,　21,　　２２　２３
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+
+１兵舎
+
+２騎士
+
+３町の女性
+
+４川沿いの男
+
+５司祭たち
+
+６術師
+
+７山賊
+
+８商人
+
+９山賊(測)
+
+１０従者と男
+
+１１山賊
+
+１２旅人
+
+１３冒険者たち
+
+１４冒たち負傷
+
+１５若者
+
+１６指導者
+
+１７屈強な男
+
+１８正規兵
+
+１９傭兵
+
+２０正規兵ら
+
+２１住人
+***********************************************
+				      『0 愚者』です";
+                    line = "スタイルは『I 魔術師』です";
+                    line = "スタイルは『II 女教皇』です";
+
+                    line = "スタイルは『III 女帝』です";
+                    line = "スタイルは『IV 皇帝』です";
+                    line = "スタイルは『V 教皇』です";
+
+                    line = "スタイルは『VI 恋人』です";
+                    line = "スタイルは『VII 戦車』です";
+                    line = "スタイルは『VIII 力』です";
+                    line = "スタイルは『IX 隠者』です";
+
+                    line = "スタイルは『X 運命の輪』です";
+                    line = "スタイルは『XI 正義』です";
+                    line = "スタイルは『XII 吊された男』です";
+                    line = "スタイルは『XIII 死神』です";
+
+                    line = "スタイルは『XIV 節制』です";/
+                    line = "スタイルは『XV 悪魔』です";/
+                    line = "スタイルは『XVI 塔』です";/
+                    line = "スタイルは『XVII 星』です";/
+
+                    line = "スタイルは『XVIII 月』です";/
+                    line = "スタイルは『XIX 太陽』です";/
+                    line = "スタイルは『XX  審判』です";/
+                    line = "スタイルは『XXI 世界』です";/
+*************************************************
